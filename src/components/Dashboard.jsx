@@ -7,12 +7,12 @@ export default function Dashboard() {
     <>
      <h1>Click on Any of the below options to get Weather data</h1>
      <div className='button-div'>
-        <Link to='/RequestType1'><button>Indian Weather Data</button></Link>
-        <Link to='/RequestType2'><button>Indian Weather Data by Id</button></Link>
-        <Link to='/RequestType3'><button>Indian Cities</button></Link>
-        <Link to='/RequestType4'><button>Global Weather</button></Link>
-        <Link to='/RequestType5'><button>Any location Globally</button></Link>
-        <Link to='/RequestType6'><button>Weather Forecast for any location globally</button></Link>
+        <Link to='/india/weather'><button>Indian Weather Data</button></Link>
+        <Link to='/india/forecast'><button>Indian Weather Data by Id</button></Link>
+        <Link to='/india/climate'><button>Indian Cities</button></Link>
+        <Link to='/india/history'><button>Global Weather</button></Link>
+        <Link to='/india/humidity'><button>Any location Globally</button></Link>
+        <Link to='/india/wind'><button>Weather Forecast for any location globally</button></Link>
      </div>
     </>
   )
