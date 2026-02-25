@@ -9,8 +9,6 @@ const API4 = "https://indianapi.in/weather-api/global/weather";
 const API5 = "https://indianapi.in/weather-api/global/forecast";
 const API6 = "https://indianapi.in/weather-api/india/weather_by_id";
 
-//const APIKEY = "sk-live-f8JhSqcmEFZdI9AoHJdTUohGODaqTCiRlcU6Xbv1";
-
 const headers = {
   headers: {
     "x-api-key": APIKEY
