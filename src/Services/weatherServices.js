@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API1 = "https://indianapi.in/weather-api/india/cities";
-const APIKEY = "sk-live-f8JhSqcmEFZdI9AoHJdTUohGODaqTCiRlcU6Xbv1";
+const APIKEY = "Your_Secret_Key";
 
 const API2 = "https://indianapi.in/weather-api/india/weather";
 const API3 = "https://indianapi.in/weather-api/global/current";
